@@ -1,0 +1,5 @@
+# sample docker file for a scratch go binary
+# refer: https://blog.codeship.com/building-minimal-docker-containers-for-go-applications/
+FROM scratch
+ADD main /
+CMD ["/main"]

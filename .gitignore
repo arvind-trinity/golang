@@ -1,0 +1,6 @@
+bin
+pkg
+src/github.com/
+src/golang.org/
+src/honnef.co/
+.vscode
